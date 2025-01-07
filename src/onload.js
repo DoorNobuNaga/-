@@ -3,7 +3,7 @@ function initialize(){
         var strFilesName ="";
 
         strFilesName = data;
-        strsFileName = strFilesName.split(/\r\n/);
+        strsFileName = strFilesName.split('\n');
 
         var audiosVoice = [strsFileName.length];
     
