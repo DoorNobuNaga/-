@@ -1,5 +1,11 @@
+var cstStrFileNameVoiceIndex = './voiceIndex.txt';
+var cstStrFolderNameVoice = './voice';
+
+/*
+/イニシャライズ
+*/
 function initialize(){
-    $.get('./voiceIndex.txt', (data) =>{
+    $.get(cstStrFileNameVoiceIndex, (data) =>{
         var strFilesName ="";
 
         strFilesName = data;
@@ -24,3 +30,9 @@ function initialize(){
 }
 
 
+/*
+/リスト更新
+*/
+function updateTxt(){
+    
+}
